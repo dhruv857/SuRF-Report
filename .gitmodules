@@ -1,0 +1,6 @@
+[submodule "rocksdb"]
+	path = rocksdb
+	url = git@github.com:efficient/rocksdb.git
+[submodule "SuRF"]
+	path = SuRF
+	url = git@github.com:efficient/SuRF.git
