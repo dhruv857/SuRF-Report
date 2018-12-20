@@ -1,0 +1,244 @@
+simple single thread
+Bloom Filter, random int, point queries
+Build time = 20.2772
+Throughput = 4.18142
+positives = 5544993
+true positives = 5510374
+false positives = 34619
+true negatives = 4455008
+False Positive Rate = 0.00771089
+Memory = 62500001
+
+SuRF, random int, point queries
+Build time = 5.11396
+Throughput = 2.25069
+positives = 5696298
+true positives = 5510374
+false positives = 185924
+true negatives = 4303703
+False Positive Rate = 0.0414119
+Memory = 66377735
+
+SuRFHash, 4-bit suffixes, random int, point queries
+Build time = 5.72796
+Throughput = 1.90572
+positives = 5517674
+true positives = 5510374
+false positives = 7300
+true negatives = 4482327
+False Positive Rate = 0.00162597
+Memory = 91377735
+
+SuRFReal, 4-bit suffixes, random int, point queries
+Build time = 5.44981
+Throughput = 1.95216
+positives = 5534908
+true positives = 5510374
+false positives = 24534
+true negatives = 4465093
+False Positive Rate = 0.0054646
+Memory = 91377735
+
+SuRFMixed, 2-bit hash suffixes and 2-bit real suffixes, random int, point queries
+Build time = 6.05943
+Throughput = 1.61184
+positives = 6290687
+true positives = 6255060
+false positives = 35627
+true negatives = 3709314
+False Positive Rate = 0.00951337
+Memory = 91377735
+
+SuRFReal, 4-bit suffixes, random int, range queries
+Build time = 5.68466
+Throughput = 1.38495
+positives = 7007273
+true positives = 6997917
+false positives = 9356
+true negatives = 2992728
+False Positive Rate = 0.0031165
+Memory = 91377735
+
+multi thread 1
+Bloom Filter, random int, point queries multi_thread
+4.19652
+4.19652
+
+
+SuRF, random int, point queries multi_thread
+2.11374
+2.11374
+
+
+SuRFHash, 4-bit suffixes, random int, point queries multi_thread
+1.82438
+1.82438
+
+
+SuRFReal, 4-bit suffixes, random int, point queries multi_thread
+1.8089
+1.8089
+
+
+SuRFMixed, 2-bit hash suffixes and 2-bit real suffixes, random int, point queries multi_thread
+WRONG filter type
+SuRFReal, 4-bit suffixes, random int, range queries multi_thread
+1.4366
+1.4366
+
+
+multi thread 2
+Bloom Filter, random int, point queries multi_thread
+4.30477
+4.18667
+8.49144
+
+
+SuRF, random int, point queries multi_thread
+2.13942
+2.09709
+4.23652
+
+
+SuRFHash, 4-bit suffixes, random int, point queries multi_thread
+1.95919
+1.91159
+3.87078
+
+
+SuRFReal, 4-bit suffixes, random int, point queries multi_thread
+1.9253
+1.89279
+3.81809
+
+
+SuRFMixed, 2-bit hash suffixes and 2-bit real suffixes, random int, point queries multi_thread
+WRONG filter type
+SuRFReal, 4-bit suffixes, random int, range queries multi_thread
+multi thread 4
+Bloom Filter, random int, point queries multi_thread
+4.11668
+4.10871
+3.86763
+3.58509
+15.6781
+
+
+SuRF, random int, point queries multi_thread
+2.2611
+2.2825
+2.25903
+2.16311
+8.96574
+
+
+SuRFHash, 4-bit suffixes, random int, point queries multi_thread
+2.05134
+1.91888
+1.88032
+1.7526
+7.60313
+
+
+SuRFReal, 4-bit suffixes, random int, point queries multi_thread
+2.05219
+2.02252
+1.92578
+1.9108
+7.91129
+
+
+SuRFMixed, 2-bit hash suffixes and 2-bit real suffixes, random int, point queries multi_thread
+WRONG filter type
+SuRFReal, 4-bit suffixes, random int, range queries multi_thread
+multi thread 5
+Bloom Filter, random int, point queries multi_thread
+4.22674
+4.15772
+3.77867
+3.92883
+3.87444
+19.9664
+
+
+SuRF, random int, point queries multi_thread
+2.3266
+2.20401
+2.15079
+1.97737
+1.90554
+10.5643
+
+
+SuRFHash, 4-bit suffixes, random int, point queries multi_thread
+1.95423
+1.94744
+1.94276
+1.8179
+1.8007
+9.46305
+
+
+SuRFReal, 4-bit suffixes, random int, point queries multi_thread
+2.0063
+1.99321
+1.95289
+1.88093
+1.8732
+9.70652
+
+
+SuRFMixed, 2-bit hash suffixes and 2-bit real suffixes, random int, point queries multi_thread
+WRONG filter type
+SuRFReal, 4-bit suffixes, random int, range queries multi_thread
+multi thread 6
+Bloom Filter, random int, point queries multi_thread
+3.68183
+3.7917
+3.72258
+3.73707
+3.71616
+3.63323
+22.2826
+
+
+SuRF, random int, point queries multi_thread
+2.2948
+2.20571
+2.21329
+2.21868
+2.16007
+2.10831
+13.2009
+
+
+SuRFHash, 4-bit suffixes, random int, point queries multi_thread
+1.92536
+1.88074
+1.82921
+1.89098
+1.822
+1.81201
+11.1603
+
+
+SuRFReal, 4-bit suffixes, random int, point queries multi_thread
+1.97873
+1.98732
+2.0342
+1.98271
+1.96226
+1.93193
+11.8771
+
+
+SuRFMixed, 2-bit hash suffixes and 2-bit real suffixes, random int, point queries multi_thread
+WRONG filter type
+SuRFReal, 4-bit suffixes, random int, range queries multi_thread
+arf
+Bloom Filter, random int, point queries ARF
+SuRF, random int, point queries ARF
+SuRFHash, 4-bit suffixes, random int, point queries ARF
+SuRFReal, 4-bit suffixes, random int, point queries ARF
+SuRFMixed, 2-bit hash suffixes and 2-bit real suffixes, random int, point queries ARF
+SuRFReal, 4-bit suffixes, random int, range queries ARF
